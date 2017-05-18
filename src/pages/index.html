@@ -1,3 +1,36 @@
+  <html>
+  <head>
+  </head>
+  <body>
+<script src="/js/vendor/jquery.js"></script>
+<script src="/js/vendor/fastclick.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <!-- Other JS plugins can be included here -->
+
+ 
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">Malin Thelin</li>
+      <li>
+        <a href="#">Bäst</a>
+        <ul class="menu vertical">
+          <li><a href="#">Bäst</a></li>
+          <li><a href="#">I</a></li>
+          <li><a href="#">Världen</a></li>
+        </ul>
+      </li>
+      <li><a href="#">I</a></li>
+      <li><a href="#">Världen</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+  </div>
+</div>
+
+ 
+
   <div id=header>
     <div class= "row">
       <div class="small-12 small-centered columns">
@@ -190,3 +223,11 @@
       </div>
     </div>
   </div>
+
+
+   <script>
+    $(document).foundation('topbar', 'reflow');
+  </script>
+
+</body>
+</html>
