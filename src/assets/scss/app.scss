@@ -57,11 +57,28 @@ body{
 
 #header, #footer {
 width: 100%;
-background-color: green !important;
 margin-left: auto;
 margin-right: auto;
 margin-top: 0;
 margin-bottom: 0;
-height: 60vh;
+height: 80vh;
+
+background-color: black !important;
+color: white !important;
 //max-width: 62.5rem;
+}
+
+#bird
+{
+	//color: #FFFFFF;
+	white-space: pre !important;
+	font: 100% "Lucida Console", Monaco, monospace !important;
+}
+
+#namn
+{
+	//color: #FFFFFF;
+	white-space: pre !important;
+	font: 100% Monaco, 'Lucida Console', Monaco, monospace !important;
+	//Consolas, 'Liberation Mono', Courier, monospace
 }
